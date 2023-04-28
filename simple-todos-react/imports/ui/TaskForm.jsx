@@ -13,6 +13,8 @@ export const TaskForm = () => {
       text: text.trim(),
       createdAt: new Date()
     });
+
+    setText('');
   }
 
   return (
